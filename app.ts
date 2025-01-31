@@ -1,4 +1,4 @@
-// all code data types how to use 
+// all core data types how to use 
 
 // number type
 let age: number = 30;
@@ -24,9 +24,23 @@ console.log(`User: ${user}, Score: ${score}`);
 let person: object = { name: "Jenesh", age: 30 };
 console.log(person);
 
+// Object with specific types
+let newPerson: { name: string, age: number, isActive: boolean } = {
+  name: "Jenesh",
+  age: 30,
+  isActive: true,
+};
+
+console.log(newPerson);
+
 // any type (use cautiously)
 let anything: any = "This can be any type!";
 anything = 123;  // can be reassigned to any type
 anything = true;
 console.log(anything);
+
+
+
+
+
 
